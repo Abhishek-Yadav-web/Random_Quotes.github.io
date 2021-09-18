@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator.</title>
+
+    <!-- Css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font-Awesome cdn link - -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <div class="quote-quthor">
+            <h3>--<span id="author"></span></h3>
+        </div>
+        <div class="buttons">
+            <div class="btn" id="twitter" title="Do you want to set on your twitter aacount?"><i class="fab fa-twitter"></i></div>
+            <div class="btn" id="next" title="Click see next quote">Next</div>
+
+        </div>
+    </div>
+
+    <div class="loading-container" id="loader">
+        <img src="img/Infinity-1.2s-217px.svg" alt="loading">
+    </div>
+
+    <!-- Js file link -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
